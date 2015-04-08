@@ -13,7 +13,8 @@
   "dependencies": {
     "lodash": "^3.5.0",
     "react": "^0.13.0",
-    "reflux": "^0.2.7"
+    "reflux": "^0.2.7",
+    "tab-component": "git+ssh://git@kasra-deploy:menapost/tab-component.git"
   },
   "devDependencies": {
     "browserify": "^9.0.3",

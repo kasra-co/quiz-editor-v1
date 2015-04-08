@@ -1,0 +1,95 @@
+.tabPanels {
+	clear: right;
+	padding-top: 30px;
+	padding-right: 15px;
+	padding-bottom: 15px;
+	border-bottom: 1px solid #dbdbdb;
+	border-left: 1px solid #dbdbdb;
+	border-right: 1px solid #dbdbdb;
+}
+.tabPanel { display: none; }
+
+.tabPanel.selected { display: block; }
+
+.tabList {
+	list-style-type: none;
+	padding: 0;
+}
+
+.caret {
+	float: left;
+	width: 0;
+	height: 0;
+	margin-top: 5px;
+	border-left: 10px solid transparent;
+	border-right: 10px solid transparent;
+	border-top: 10px solid #4d4d4d;
+	cursor: pointer;
+	&.open {
+		border-bottom: 10px solid #4d4d4d;
+		border-top: 0;
+	}
+}
+.editorSubHeading {
+	text-align: right;
+	margin-top: 0;
+}
+#quizResults, #quizQuestions {
+	height: 75px;
+	overflow: hidden;
+	margin-bottom: 30px;
+	&.open {
+		height: auto;
+		.tabsAndPanels {
+			display: initial;
+		}
+	}
+	.tabList {
+		border-bottom: 1px solid #dbdbdb;
+		margin-bottom: 0;
+	}
+	.tabItem {
+		float: right;
+		border-top-right-radius: 3px;
+		border-top-left-radius: 3px;
+		border-bottom: 1px solid #f7f7f7;
+		position: relative;
+		top: 1px;
+		&:hover .deletePanel {
+			visibility: visible;
+			cursor: pointer;
+		}
+	}
+	.tabItem.selected {
+		border-left: 1px solid #dbdbdb;
+	}
+	.tabItem:not(.selected) {
+		background-color: #dbdbdb;
+		&:hover {
+			cursor: pointer;
+		}
+	}
+	.tabItem:not(.addNewTab) {
+		padding: 5px 10px 5px 20px;
+		border-top: 1px solid #dbdbdb;
+		border-right: 1px solid #dbdbdb;
+	}
+	.tabItem.addNewTab {
+		padding: 5px 10px 5px 10px;
+		background-color: transparent;
+		border-top: 1px dashed #dbdbdb;
+		border-left: 1px dashed #dbdbdb;
+		border-right: 1px dashed #dbdbdb;
+	}
+	.deletePanel {
+		visibility: hidden;
+		position: relative;
+		left: -20px;
+	}
+	.tabsAndPanels {
+		display: none;
+	}
+	.label {
+		text-align: right;
+	}
+}

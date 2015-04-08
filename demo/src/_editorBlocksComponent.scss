@@ -1,0 +1,50 @@
+.editorBlock {
+    padding: 25px 20px;
+    border: 1px solid #dbdbdb;
+    background-color: #f7f7f7;
+    max-width: 40em;
+    direction: rtl;
+    label {
+        display: block;
+        line-height: 2.65;
+        margin-bottom: 1rem;
+        input[type=text] {
+            display: inline-block;
+            width: calc(80% - 30px);
+            line-height: 1.7;
+        }
+        span {
+            display: inline-block;
+            width: 18%;
+            text-align: left;
+        }
+    }
+    input {
+        padding: 5px 15px;
+        font-size: 1rem;
+    }
+    button {
+        font-size: 1rem;
+        line-height: 1;
+        border-radius: 3px;
+        cursor: pointer;
+    }
+    button {
+        height: 30px;
+        width: 100px;
+    }
+    .editorPrimaryBtn {
+        background-color: #ff9100;
+        border: 2px solid #ff9100;
+        color: white;
+    }
+    .editorSecondaryBtn {
+        vertical-align: top;
+        color: #4d4d4;
+        background-color: #f6f6f6;
+        border: 2px solid #dbdbdb;
+    }
+    #editorAddButton {
+        margin-left: 15px;
+    }
+}

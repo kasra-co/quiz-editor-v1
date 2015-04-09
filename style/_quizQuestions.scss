@@ -6,4 +6,26 @@
 		margin-top: 20px;
 		font-size: .75em;
 	}
+
+	.tabPanels {
+		padding-bottom: 30px;
+	}
+	.deleteQuestion {
+		float: left;
+		margin-left: 10px;
+		font-size: .75rem;
+		cursor: pointer;
+		i {
+			float: left;
+			font-size: 1rem;
+		}
+		span {
+			float: left;
+			margin-top: 3px;
+			display: none;
+		}
+		&:hover span {
+			display: block;
+		}
+	}
 }

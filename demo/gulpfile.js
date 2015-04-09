@@ -11,9 +11,12 @@ var uglify = require( 'gulp-uglify' );
 var sass = require( 'gulp-ruby-sass' );
 var _ = require( 'lodash' );
 
-gulp.task( 'watch', [ 'html', 'sass' ], function() {
+gulp.task( 'watch', [ 'html', 'sass', 'images', 'fonts', 'config' ], function() {
 	gulp.watch( '../style/**/*.scss', [ 'sass' ]);
 	gulp.watch( 'src/index.html', [ 'html' ]);
+	gulp.watch( 'src/images/**/*', [ 'images' ]);
+	gulp.watch( 'src/font/**/*', [ 'fonts' ]);
+	gulp.watch( 'src/config/**/*', [ 'config' ]);
 	bundle();
 });
 
@@ -28,6 +31,21 @@ gulp.task( 'sass', function() {
 		console.error('Error', err.message);
 	})
 	.pipe( gulp.dest( 'dist' ));
+});
+
+gulp.task( 'images', function() {
+	gulp.src( 'src/images/**/*' )
+	.pipe( gulp.dest( 'dist/images' ));
+});
+
+gulp.task( 'fonts', function() {
+	gulp.src( 'src/font/**/*' )
+	.pipe( gulp.dest( 'dist/font' ));
+});
+
+gulp.task( 'config', function() {
+	gulp.src( 'src/config/**/*' )
+	.pipe( gulp.dest( 'dist/config' ));
 });
 
 // Watchify helps Browserify to only rebuild the parts of a source tree that are affected by a change, to reduce build time.

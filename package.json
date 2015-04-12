@@ -1,14 +1,14 @@
 {
-  "name": "fembot",
+  "name": "quiz-editor",
   "version": "3.0.0",
-  "description": "Seed project for front end modules.",
+  "description": "A React app for editing Kasra quizes.",
   "main": "index.js",
-  "repository": "https://bitbucket.org/menapost/fembot",
+  "repository": "https://bitbucket.org/menapost/quiz-editor",
   "private": true,
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "Dan Ross <daniel.ross@kasra.co>",
+  "author": "Will Akehurst",
   "license": "ISC",
   "dependencies": {
     "lodash": "^3.5.0",

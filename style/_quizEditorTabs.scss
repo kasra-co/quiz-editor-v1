@@ -35,7 +35,6 @@
 	margin-top: 0;
 }
 #quizResults, #quizQuestions {
-	height: 75px;
 	overflow: hidden;
 	margin-bottom: 30px;
 	&.open {
@@ -85,9 +84,6 @@
 		visibility: hidden;
 		position: relative;
 		left: -20px;
-	}
-	.tabsAndPanels {
-		display: none;
 	}
 	.label {
 		text-align: right;

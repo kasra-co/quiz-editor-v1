@@ -15,7 +15,7 @@ gulp.task( 'watch', [ 'html', 'sass', 'images', 'fonts', 'config' ], function() 
 	gulp.watch( '../style/**/*.scss', [ 'sass' ]);
 	gulp.watch( 'src/index.html', [ 'html' ]);
 	gulp.watch( 'src/images/**/*', [ 'images' ]);
-	gulp.watch( 'src/font/**/*', [ 'fonts' ]);
+	gulp.watch( '../font/**/*', [ 'fonts' ]);
 	gulp.watch( 'src/config/**/*', [ 'config' ]);
 	bundle();
 });
@@ -26,7 +26,7 @@ gulp.task( 'html', function() {
 });
 
 gulp.task( 'sass', function() {
-	return sass( 'src/index.scss' )
+	return sass( '../style/index.scss' )
 	.on('error', function (err){
 		console.error('Error', err.message);
 	})
@@ -39,7 +39,7 @@ gulp.task( 'images', function() {
 });
 
 gulp.task( 'fonts', function() {
-	gulp.src( 'src/font/**/*' )
+	gulp.src( '../font/**/*' )
 	.pipe( gulp.dest( 'dist/font' ));
 });
 

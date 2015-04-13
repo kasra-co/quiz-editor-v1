@@ -4,4 +4,4 @@ var React = require( 'react' );
 var Quiz = require('../..').Quiz;
 
 
-React.render( <Quiz />, document.body );
+React.render( <Quiz updateQuiz={ function( quiz ) { console.log( quiz ); }}/>, document.body );

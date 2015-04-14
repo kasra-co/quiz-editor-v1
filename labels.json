@@ -9,5 +9,10 @@
 	"questionVia" : "Via",
 	"crop": "Crop",
 	"addNewQuestion" : "New Question",
-	"deleteQuestion" : "Delete Question"
+	"deleteQuestion" : "Delete Question",
+	"media" : "Media",
+	"questionTabLabel" : "Question",
+	"answerTabLabel" : "Answers",
+	"resultPanelTitle" : "Your Results",
+	"questionPanelTitle" : "Your Questions"
 }

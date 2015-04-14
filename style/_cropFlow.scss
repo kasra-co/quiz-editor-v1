@@ -39,7 +39,8 @@
 	position: relative;
 	float: right;
 	input {
-		font-size: 40px; /* if large font-size isn't specified, pointer doesn't appear over whole clickable area on hover */
+		padding: 0;
+		font-size: 50px; /* if large font-size isn't specified, pointer doesn't appear over whole clickable area on hover */
 	}
 	button:hover, .icon-upload-cloud:hover {
 		cursor: pointer;
@@ -75,14 +76,16 @@
 		margin-top: 0;
 	}
 	button {
-		background-color: #dbdbdb;
-		border: 2px solid #dbdbdb;
-		color: #4d4d4d;
 		float: left;
 	}
 	.cropButton {
 		margin-right: 1rem;
 	}
+}
+#quizComponent button {
+	background-color: #dbdbdb;
+	border: 2px solid #dbdbdb;
+	color: #4d4d4d;
 }
 .previewArea {
 	display: block;

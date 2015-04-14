@@ -4,8 +4,10 @@
 	"resultCredit" : "Credit",
 	"resultVia" : "Via",
 	"questionTitle" : "Title",
+	"questionMedia" : "Media",
 	"questionCredit" : "Credit",
 	"questionVia" : "Via",
+	"crop": "Crop",
 	"addNewQuestion" : "New Question",
 	"deleteQuestion" : "Delete Question"
 }

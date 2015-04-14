@@ -7,5 +7,6 @@
 	"questionCredit" : "Credit",
 	"questionVia" : "Via",
 	"addNewQuestion" : "New Question",
-	"deleteQuestion" : "Delete Question"
+	"deleteQuestion" : "Delete Question",
+	"media" : "Media"
 }

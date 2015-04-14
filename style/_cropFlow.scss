@@ -12,6 +12,16 @@
 }
 .mediaLabel {
 	float: right;
+	width: 18%;
+}
+
+.croppedImage {
+	float: left;
+}
+.recrop {
+	float: right;
+	clear: right;
+	margin-top: 1rem;
 }
 .imageUpload {
 	opacity: 0;

@@ -8,5 +8,9 @@
 	"questionVia" : "Via",
 	"addNewQuestion" : "New Question",
 	"deleteQuestion" : "Delete Question",
-	"media" : "Media"
+	"media" : "Media",
+	"questionTabLabel" : "Question",
+	"answerTabLabel" : "Answers",
+	"resultPanelTitle" : "Your Results",
+	"questionPanelTitle" : "Your Questions"
 }

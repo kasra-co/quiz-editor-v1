@@ -12,7 +12,7 @@ var _ = require( 'lodash' );
 gulp.task( 'watch', [ 'html', 'sass', 'images', 'fonts', 'config' ], function() {
 	gulp.watch( '../style/**/*.scss', [ 'sass' ]);
 	gulp.watch( 'src/index.html', [ 'html' ]);
-	gulp.watch( 'src/images/**/*', [ 'images' ]);
+	gulp.watch( '../images/**/*', [ 'images' ]);
 	gulp.watch( '../font/**/*', [ 'fonts' ]);
 	gulp.watch( 'src/config/**/*', [ 'config' ]);
 	bundle();
@@ -32,7 +32,7 @@ gulp.task( 'sass', function() {
 });
 
 gulp.task( 'images', function() {
-	gulp.src( 'src/images/**/*' )
+	gulp.src( '../images/**/*' )
 	.pipe( gulp.dest( 'dist/images' ));
 });
 

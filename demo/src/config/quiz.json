@@ -4,24 +4,27 @@
 		"text": "أنت شخصية مرنة، بسيطة، علاقاتك الاجتماعية ممتازة، فأنت صديق الكل والموظف المفضل عند مديرك، أو الطالب المثالي لدى أستاذك.",
 		"media": {
 			"image": "http://kasra.co/wp-content/uploads/2015/03/02-180x180.png",
-			"credit": "Getty Images",
-			"via": "Bob"
+			"title": "Image Test Title",
+			"alt": "Test image alternate text",
+			"caption": "Test Credit"
 		}
 	}, {
 		"title": "Two",
 		"text": "You are number two.",
 		"media": {
 			"image": "http://kasra.co/wp-content/uploads/2015/03/02-180x180.png",
-			"credit": "Getty Images",
-			"via": "Bob"
+			"title": "Image Test Title",
+			"alt": "Test image alternate text",
+			"caption": "Test Credit"
 		}
 	}, {
 		"title": "Three",
 		"text": "You are number three.",
 		"media": {
 			"image": "http://kasra.co/wp-content/uploads/2015/03/02-180x180.png",
-			"credit": "Getty Images",
-			"via": "Bob"
+			"title": "Image Test Title",
+			"alt": "Test image alternate text",
+			"caption": "Test Credit"
 		}
 	}],
 
@@ -31,8 +34,9 @@
 		"color": "ff0000",
 		"media": {
 			"image": "/images/thief.jpg",
-			"credit": "Getty Images",
-			"via": "Bob"
+			"title": "Image Test Title",
+			"alt": "Test image alternate text",
+			"caption": "Test Credit"
 		},
 		"answers": [
 			"عندما تقابلهم مرة أخرى تقول لهم المعلو",
@@ -44,7 +48,10 @@
 		"prompt": "Question Two?",
 		"color": "00ff00",
 		"media": {
-			"image": "/images/thief.jpg"
+			"image": "/images/thief.jpg",
+			"title": "Image Test Title",
+			"alt": "Test image alternate text",
+			"caption": "Test Credit"
 		},
 		"answers": [
 			"عندما مرة أخرى تقول لهم المعلومة",
@@ -55,7 +62,10 @@
 		"prompt": "Question Three?",
 		"color": "0000ff",
 		"media": {
-			"image": "/images/thief.jpg"
+			"image": "/images/thief.jpg",
+			"title": "Image Test Title",
+			"alt": "Test image alternate text",
+			"caption": "Test Credit"
 		},
 		"answers": [
 			"اسأل: كم دقيقة لا أقضيها أمام شبكة الإنترنت!",

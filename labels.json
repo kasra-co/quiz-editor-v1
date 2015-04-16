@@ -14,5 +14,10 @@
 	"questionTabLabel" : "سؤال",
 	"answerTabLabel" : "الإجابات",
 	"resultPanelTitle" : "النتائج",
-	"questionPanelTitle" : "أسئلة الإختبار"
+	"questionPanelTitle" : "أسئلة الإختبار",
+	"title" : "العنوان",
+	"caption" : "كلمات توضيحية",
+	"altText" : "النص البديل",
+	"mediaMeta" : "Image Meta"
+
 }

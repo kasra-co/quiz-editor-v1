@@ -37,6 +37,7 @@
 #quizResults, #quizQuestions {
 	overflow: hidden;
 	margin-bottom: 30px;
+	max-width: 100%;
 	&.open {
 		height: auto;
 		.tabsAndPanels {
@@ -54,6 +55,7 @@
 		border-bottom: 1px solid #f7f7f7;
 		position: relative;
 		top: 1px;
+		margin-bottom: 0; /* overrides wordpress admin styles */
 		&:hover .deletePanel {
 			visibility: visible;
 			cursor: pointer;

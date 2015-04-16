@@ -9,10 +9,11 @@ var uglify = require( 'gulp-uglify' );
 var sass = require( 'gulp-ruby-sass' );
 var _ = require( 'lodash' );
 
-gulp.task( 'watch', [ 'html', 'sass', 'images', 'fonts', 'config' ], function() {
+gulp.task( 'watch', [ 'html', 'sass', 'images', 'demo-images', 'fonts', 'config' ], function() {
 	gulp.watch( '../style/**/*.scss', [ 'sass' ]);
 	gulp.watch( 'src/index.html', [ 'html' ]);
 	gulp.watch( '../images/**/*', [ 'images' ]);
+	gulp.watch( 'src/images/**/*', [ 'demo-images' ]);
 	gulp.watch( '../font/**/*', [ 'fonts' ]);
 	gulp.watch( 'src/config/**/*', [ 'config' ]);
 	bundle();
@@ -33,6 +34,11 @@ gulp.task( 'sass', function() {
 
 gulp.task( 'images', function() {
 	gulp.src( '../images/**/*' )
+	.pipe( gulp.dest( 'dist/images' ));
+});
+
+gulp.task( 'demo-images', function() {
+	gulp.src( 'src/images/**/*' )
 	.pipe( gulp.dest( 'dist/images' ));
 });
 

@@ -5,7 +5,7 @@
 		"media": {
 			"image": "http://kasra.co/wp-content/uploads/2015/03/02-180x180.png",
 			"title": "Image Test Title",
-			"alt": "Test image alternate text",
+			"altText": "Test image alternate text",
 			"caption": "Test Credit"
 		}
 	}, {
@@ -14,7 +14,7 @@
 		"media": {
 			"image": "http://kasra.co/wp-content/uploads/2015/03/02-180x180.png",
 			"title": "Image Test Title",
-			"alt": "Test image alternate text",
+			"altText": "Test image alternate text",
 			"caption": "Test Credit"
 		}
 	}, {
@@ -23,7 +23,7 @@
 		"media": {
 			"image": "http://kasra.co/wp-content/uploads/2015/03/02-180x180.png",
 			"title": "Image Test Title",
-			"alt": "Test image alternate text",
+			"altText": "Test image alternate text",
 			"caption": "Test Credit"
 		}
 	}],
@@ -35,7 +35,7 @@
 		"media": {
 			"image": "/images/thief.jpg",
 			"title": "Image Test Title",
-			"alt": "Test image alternate text",
+			"altText": "Test image alternate text",
 			"caption": "Test Credit"
 		},
 		"answers": [
@@ -50,7 +50,7 @@
 		"media": {
 			"image": "/images/thief.jpg",
 			"title": "Image Test Title",
-			"alt": "Test image alternate text",
+			"altText": "Test image alternate text",
 			"caption": "Test Credit"
 		},
 		"answers": [
@@ -64,7 +64,7 @@
 		"media": {
 			"image": "/images/thief.jpg",
 			"title": "Image Test Title",
-			"alt": "Test image alternate text",
+			"altText": "Test image alternate text",
 			"caption": "Test Credit"
 		},
 		"answers": [

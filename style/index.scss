@@ -3,6 +3,12 @@
 @import "quizEditorTabs";
 @import "quizQuestions";
 @import "cropFlow";
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
 .clearfix { zoom: 1; }
 .clearfix:before,
 .clearfix:after {content: "";display: table; }

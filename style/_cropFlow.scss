@@ -6,7 +6,7 @@
 	}
 }
 .media {
-	width: 80%;
+	width: calc(80% - 30px);
 	float: right;
 	margin-bottom: 1rem;
 }
@@ -14,9 +14,13 @@
 	float: right;
 	width: 18%;
 }
-
+.questionPanel .croppedImage {
+	border: 1px solid #dbdbdb;
+}
 .croppedImage {
 	float: left;
+	max-width: 300px;
+	margin-bottom: 1rem;
 }
 .recrop {
 	float: right;
@@ -55,15 +59,20 @@
 .cropPreview {
 	position: fixed;
 	z-index: 3;
-	width: 600px;
-	top: 10%;
+	width: 800px;
+	top: 5%;
 	left: 50%;
-	margin-left: -300px;
+	margin-left: -400px;
 	padding: 20px 25px;
 	background-color: #f7f7f7;
 	-webkit-box-shadow: 1px 2px 9px #000;
 	box-shadow: 1px 2px 9px #000;
 	border-radius: 5px;
+	overflow: scroll;
+	img {
+		max-width: 100%;
+		margin-bottom: 1rem;
+	}
 	i {
 		float: left;
 		color: #dbdbdb;

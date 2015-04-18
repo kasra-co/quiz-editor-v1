@@ -35,8 +35,30 @@
 	}
 }
 .mediaMeta {
+	clear: right;
 	.caret {
 		clear: right;
 		margin-left: 1rem;
+	}
+}
+.errorMessage {
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	background-color: #e56050;
+	padding: 0.5rem 2rem;
+	direction: rtl;
+	color: white;
+	display: none;
+	&.open { display: block; }
+	p {
+		text-align: center;
+	}
+	a.close {
+		position: absolute;
+		top: 5px;
+		left: 5px;
+		cursor: pointer;
 	}
 }

@@ -13,6 +13,9 @@
             width: calc(80% - 30px);
             line-height: 1.7;
         }
+        input.error {
+        	border: 3px solid #e56050;
+        }
         span {
             display: inline-block;
             width: 18%;

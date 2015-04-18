@@ -18,6 +18,7 @@
 	"title" : "العنوان",
 	"caption" : "كلمات توضيحية",
 	"altText" : "النص البديل",
-	"mediaMeta" : "Image Meta"
+	"mediaMeta" : "Image Meta",
+	"errorMessage" : "Temporary error message, to be replaced with this.props.errorMessage."
 
 }

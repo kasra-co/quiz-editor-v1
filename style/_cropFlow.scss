@@ -14,13 +14,31 @@
 	float: right;
 	width: 18%;
 }
-.questionPanel .croppedImage {
-	border: 1px solid #dbdbdb;
-}
-.croppedImage {
+.croppedImagePlaceholder {
 	float: left;
-	max-width: 300px;
 	margin-bottom: 1rem;
+}
+#quizResults .croppedImagePlaceholder {
+	height: 180px;
+	width: 180px;
+	overflow: hidden;
+	background-color: #eeeeee;
+	border: 3px solid white;
+	outline: 1px solid #dbdbdb;
+	.croppedImage {
+		max-width: 100%;
+	}
+}
+#quizQuestions .croppedImagePlaceholder {
+	height: 100px;
+	width: 300px;
+	overflow: hidden;
+	background-color: #eeeeee;
+	border: 3px solid white;
+	outline: 1px solid #dbdbdb;
+	.croppedImage {
+		max-width: 100%;
+	}
 }
 .recrop {
 	float: right;
@@ -103,6 +121,10 @@
 	margin-left: 15px;
 }
 @media (max-width: 600px){
+	#quizQuestions .croppedImagePlaceholder {
+		width: 100%;
+		height: auto;
+	}
 	.fileUpload, .imagePreview {
 		float: right;
 	}
@@ -116,8 +138,10 @@
 		left: 5%;
 		margin-left: 0;
 	}
-	.croppedImage {
+	.croppedImagePlaceholder {
 		float: none;
+	}
+	.croppedImage {
 		max-width: 100%;
 	}
 	.recrop {

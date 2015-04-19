@@ -31,7 +31,6 @@
 
 	"questions": [{
 		"prompt": "Question One?",
-		"color": "ff0000",
 		"media": {
 			"image": "/images/thief.jpg",
 			"title": "Image Test Title",
@@ -46,7 +45,6 @@
 		]
 	}, {
 		"prompt": "Question Two?",
-		"color": "00ff00",
 		"media": {
 			"image": "/images/thief.jpg",
 			"title": "Image Test Title",
@@ -60,7 +58,6 @@
 		]
 	}, {
 		"prompt": "Question Three?",
-		"color": "0000ff",
 		"media": {
 			"image": "/images/thief.jpg",
 			"title": "Image Test Title",
@@ -73,4 +70,4 @@
 			"عندما تقابلهم مرة أخرى تقول لهم المعلومة الصحيحة"
 		]
 	}]
-};
+}

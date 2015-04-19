@@ -19,6 +19,6 @@
 	"caption" : "كلمات توضيحية",
 	"altText" : "النص البديل",
 	"mediaMeta" : "Image Meta",
-	"errorMessage" : "Temporary error message, to be replaced with this.props.errorMessage."
+	"errorMessage" : "Incomplete quiz. Quizzes must have at least two questions, at least two results, and all fields must be filled in."
 
 }

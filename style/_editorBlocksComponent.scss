@@ -52,10 +52,36 @@
 	.editorBlock {
 		label {
 			input[type=text] {
-				width: calc(89% - 30px);
+				width: calc(90% - 25px);
 			}
 			span {
 				width: 10%;
+			}
+		}
+	}
+	.editorBlock .mediaMeta {
+		label {
+			input[type=text] {
+				width: calc(85% - 15px);
+			}
+			span {
+				width: 15%;
+			}
+		}
+	}
+}
+@media (max-width: 850px) {
+	.media {
+		margin-left: 1rem;
+	}
+	.editorBlock .mediaMeta {
+		label {
+			margin-bottom: 0;
+			input[type=text] {
+				width: calc(100% - 1rem);
+			}
+			span {
+				width: 100%;
 			}
 		}
 	}

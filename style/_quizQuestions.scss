@@ -35,7 +35,10 @@
 	}
 }
 .mediaMeta {
-	clear: right;
+	float: right;
+	width: calc(100% - 242px);
+	position: relative;
+	top: -12px;
 }
 #quizComponent .mediaMeta h3 {
 	padding: 0;

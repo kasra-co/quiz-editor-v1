@@ -11,6 +11,8 @@
   "author": "Will Akehurst",
   "license": "ISC",
   "dependencies": {
+    "joi": "^6.2.0",
+    "kasra-validators": "git+ssh://git@kasra-deploy:menapost/kasra-validators.git",
     "lodash": "^3.5.0",
     "react": "^0.13.0",
     "reflux": "^0.2.7",

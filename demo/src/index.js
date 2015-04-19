@@ -47,8 +47,6 @@ var Demo = React.createClass({
 					updateQuiz={ function( quiz ) {
 						var result = Joi.validate( quiz, quizSchema );
 
-						console.log( result.error );
-
 						this.setState({
 							invalid: !!result.error,
 							quiz: quiz
@@ -61,9 +59,9 @@ var Demo = React.createClass({
 	getInitialState: function() {
 		return {
 			invalid: false,
-			quiz: initialQuiz
+			quiz: this.props.initialQuiz
 		};
 	}
 });
 
-React.render( <Demo/>, document.body );
+React.render( <Demo initialQuiz={ initialQuiz }/>, document.body );

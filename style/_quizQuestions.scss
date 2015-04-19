@@ -36,8 +36,8 @@
 }
 .mediaMeta {
 	clear: right;
-	.caret {
-		clear: right;
-		margin-left: 1rem;
-	}
+}
+#quizComponent .mediaMeta h3 {
+	padding: 0;
+	margin-top: 0;
 }

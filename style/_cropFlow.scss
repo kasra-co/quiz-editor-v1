@@ -41,7 +41,6 @@
 }
 .fileUpload {
 	position: relative;
-	float: right;
 	input {
 		padding: 0;
 		font-size: 50px; /* if large font-size isn't specified, pointer doesn't appear over whole clickable area on hover */
@@ -105,7 +104,7 @@
 }
 @media (max-width: 600px){
 	.fileUpload, .imagePreview {
-		float: none;
+		float: right;
 	}
 	.fileUpload {
 		margin-bottom: 30px;
@@ -120,5 +119,11 @@
 	.croppedImage {
 		float: none;
 		max-width: 100%;
+	}
+	.recrop {
+		float: right;
+		clear: none;
+		margin-top: 0;
+		margin-right: 1rem;
 	}
 }

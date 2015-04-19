@@ -23,7 +23,7 @@
 	border: 3px solid white;
 	outline: 1px solid #dbdbdb;
 	.croppedImage {
-		max-width: 100%;
+		width: 100%;
 	}
 }
 #quizQuestions .croppedImagePlaceholder {
@@ -65,7 +65,7 @@
 		cursor: pointer;
 	}
 }
-.cropPreview {
+#quizComponent .cropPreview {
 	position: fixed;
 	z-index: 3;
 	width: 800px;
@@ -77,10 +77,12 @@
 	-webkit-box-shadow: 1px 2px 9px #000;
 	box-shadow: 1px 2px 9px #000;
 	border-radius: 5px;
-	overflow: scroll;
+	.crop-window {
+		cursor: move;
+		border: 1px dashed #4d4d4d;
+	}
 	img {
 		max-width: 100%;
-		margin-bottom: 1rem;
 	}
 	i {
 		float: left;
@@ -95,6 +97,7 @@
 	}
 	button {
 		float: left;
+		margin-top: 1rem;
 	}
 	.cropButton {
 		margin-right: 1rem;

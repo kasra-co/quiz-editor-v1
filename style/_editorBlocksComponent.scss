@@ -48,3 +48,15 @@
         margin-left: 15px;
     }
 }
+@media (min-width: 900px) {
+	.editorBlock {
+		label {
+			input[type=text] {
+				width: calc(89% - 30px);
+			}
+			span {
+				width: 10%;
+			}
+		}
+	}
+}

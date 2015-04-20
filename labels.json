@@ -16,7 +16,7 @@
 	"resultPanelTitle" : "النتائج",
 	"questionPanelTitle" : "أسئلة الإختبار",
 	"title" : "العنوان",
-	"caption" : "كلمات توضيحية",
+	"caption" : "المصدر",
 	"altText" : "النص البديل",
 	"mediaMeta" : "معلومات الصورة",
 	"errorMessage" : "Incomplete quiz. Quizzes must have at least two questions, at least two results, and all fields must be filled in."

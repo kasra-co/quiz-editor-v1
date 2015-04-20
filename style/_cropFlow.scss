@@ -59,7 +59,8 @@
 	float: right;
 	input {
 		padding: 0;
-		font-size: 50px; /* if large font-size isn't specified, pointer doesn't appear over whole clickable area on hover */
+		overflow: hidden;
+		font-size: 40px; /* if large font-size isn't specified, pointer doesn't appear over whole clickable area on hover */
 	}
 	button:hover, .icon-upload-cloud:hover {
 		cursor: pointer;

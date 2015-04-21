@@ -13,7 +13,7 @@ var mediaSchema = Joi.object().keys({
 	altText: Joi.string().required()
 }).required();
 
-var quizSchema ={
+var quizSchema = {
 	questions: Joi.array().min(1).max(10).items(Joi.object().keys({
 		prompt: Joi.string().required(),
 		media: mediaSchema,
@@ -30,11 +30,15 @@ var Demo = React.createClass({
 	render: function() {
 
 		var errorMessage;
-		if( this.state.invalid ) {
+		if( this.state.error ) {
 			errorMessage = (
 				<div className={ "errorMessage open" }>
 					<a className="close" onClick={ this.closeErrorMessage }><i className="icon-cancel"></i></a>
 					<p>{ labels.errorMessage }</p>
+					<h3>Error info</h3>
+					<p>{ JSON.stringify( this.state.error, null, "\t" )}</p>
+					<h3>Quiz data</h3>
+					<p>{ JSON.stringify( this.state.quiz, null, "\t" )}</p>
 				</div>
 			);
 		}
@@ -48,7 +52,7 @@ var Demo = React.createClass({
 						var result = Joi.validate( quiz, quizSchema );
 
 						this.setState({
-							invalid: !!result.error,
+							error: result.error,
 							quiz: quiz
 						});
 					}.bind( this )} />

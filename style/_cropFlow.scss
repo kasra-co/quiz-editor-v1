@@ -66,13 +66,24 @@
 		cursor: pointer;
 	}
 }
+#quizComponent .cropPreview.landscape {
+	margin-left: -400px;
+	max-width: 800px;
+	img {
+		max-width: 100%;
+	}
+}
+#quizComponent .cropPreview.portrait {
+	margin-left: - 160px;
+	img {
+		max-height: 400px;
+	}
+}
 #quizComponent .cropPreview {
 	position: fixed;
 	z-index: 3;
-	width: 800px;
 	top: 5%;
 	left: 50%;
-	margin-left: -400px;
 	padding: 20px 25px;
 	background-color: #f7f7f7;
 	-webkit-box-shadow: 1px 2px 9px #000;
@@ -81,9 +92,6 @@
 	.crop-window {
 		cursor: move;
 		border: 1px dashed #4d4d4d;
-	}
-	img {
-		max-width: 100%;
 	}
 	i {
 		float: left;
@@ -120,19 +128,19 @@
 .acceptButton {
 	margin-left: 15px;
 }
+@media (max-width: 800px) {
+	.cropPreview.landscape {
+		width: 95%;
+		left: 2.5% !important;
+		margin-left: 0 !important;
+	}
+}
 @media (max-width: 600px){
 	.fileUpload, .imagePreview {
 		float: right;
 	}
 	.fileUpload {
 		margin-bottom: 30px;
-	}
-	.cropPreview {
-		width: 90%;
-		position: fixed;
-		top: 10%;
-		left: 5%;
-		margin-left: 0;
 	}
 	.croppedImagePlaceholder {
 		float: none;

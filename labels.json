@@ -20,6 +20,6 @@
 	"caption" : "المصدر",
 	"altText" : "النص البديل",
 	"mediaMeta" : "معلومات الصورة",
-	"errorMessage" : "Incomplete quiz. Quizzes must have at least two questions, at least two results, and all fields must be filled in."
-
+	"errorMessage" : "Incomplete quiz. Quizzes must have at least two questions, at least two results, and all fields must be filled in.",
+	"imageSizeError": "هذه الصورة صغيرة جداً، يرجى اختيار صورة أخرى"
 }

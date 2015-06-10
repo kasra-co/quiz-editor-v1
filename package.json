@@ -17,7 +17,7 @@
     "react": "^0.13.0",
     "reflux": "^0.2.7",
     "select-rect": "git+ssh://git@kasra-deploy:menapost/selectrect.git",
-    "tab-component": "git+ssh://git@kasra-deploy:menapost/tab-component.git"
+    "tab-component": "git+ssh://git@kasra-deploy:menapost/tab-component.git#9b20d3e"
   },
   "devDependencies": {
     "browserify": "^9.0.3",

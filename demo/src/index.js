@@ -1,6 +1,5 @@
 var React = require( "react" );
 var initialQuiz = require("./config/quiz.json");
-var validators = require( "kasra-validators" );
 var Joi = require( "joi" );
 
 var labels = require("../../labels");
